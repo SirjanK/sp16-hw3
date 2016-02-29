@@ -1,0 +1,18 @@
+<h1>All my amazing users -- </h1>
+
+<%@users.each do |user| %>
+    <p>
+       Username: <%=user.username%>
+       Email: <%=user.email%>
+       Age: <%=user.age%>
+    </p>
+<%end%>
+
+<h1>Cats -- </h1>
+
+<%@cats.each do |cat| %>
+    <p>
+      Name: <%=cat.name%>
+    </p>
+
+<% end %>
